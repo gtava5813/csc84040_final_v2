@@ -1,0 +1,5 @@
+regex
+pandas
+numpy
+scikit-learn
+sentence-transformers
