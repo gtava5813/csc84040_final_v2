@@ -77,7 +77,7 @@ if st.button("Get Recommendations"):
         st.write(f"- {song} (similarity: {score:.2f})")
 
     st.header("Collaborative Filtering Recommendations")
-        for song, score in cf_recommendations:
+    for song, score in cf_recommendations:
         st.write(f"- {song} (score: {score:.4f})")
             
             
